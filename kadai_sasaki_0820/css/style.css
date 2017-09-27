@@ -1,0 +1,60 @@
+/*全体
+-----------------*/
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+#logo{
+	width: 195px;
+}
+#id01{
+	width: 100%;
+}
+
+#id04{
+	background-image: (../img/top/intro_bg.png)
+}
+
+ul li{
+	display: flex;
+}
+#sample{
+	display: flex;
+}
+#video{
+	display: flex;
+	justify-content: space-between;
+}
+
+#concept{
+	display: flex;
+}
+#sns{
+	display: flex;
+	align-items: center;
+}
+
+
+
+/*clearfix
+-----------------*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+/*
+-----------------*/
