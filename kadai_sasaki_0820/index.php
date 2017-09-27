@@ -18,11 +18,23 @@ cssでサイズが変わらない
 </head>
 <body>
 	<h2><img id="logo" src="img/header/logo.jpg" alt=""></h2>
-	<p id="">表参道で学習できるプログラミングホテル</p>
-	<h2><img id="id01" src="./img/mainvisual/main_01.png" alt=""></h2>
+	<p id="title">表参道で学習できるプログラミングホテル</p>
+	<h2 id="header">
+		<ul id="menu">
+			<li>HOME</li>
+			<li>ご宿泊</li>
+			<li>おすすめプラン</li>
+			<li>施設紹介</li>
+			<li>あああ</li>
+			<li>コンセプト</li>
+			<li>採用情報</li>
+			<li>お問い合わせ</li>
+		</ul>
+	</h2>
+	<h2><img id="mainvisual" src="img/mainvisual/main_01.png" alt=""></h2>
 	<h2 id="id02">滞在希望日時</h2>
 	<h2 id="id03">
-
+		<div class="toiawase">
 		<form class="" action="index.html" method="post">
 			<p>お名前：<input type="text" name="名前" value=""></p>
 			<p>メールアドレス：<input type="text" name="メール" value=""></p>
@@ -30,10 +42,12 @@ cssでサイズが変わらない
 			<p>女性人数：<input type="number" name="" value=""></p>
 			<input type="submit" name="送信" value="お問い合わせ">
 		</form>
+		</div>
+
 	</h2>
 	<h2 id="id04">
-		<p id="">ようこそプログラミング学習ができるホテルomotesandoへ。</p>
-		<p id="">
+		<p id="id05">ようこそプログラミング学習ができるホテル<br>omotesandoへ。</p>
+		<p id="id06">
 			せまい、だけど清潔、快適、ネットも使える。
 			<br>
 			ホテル運営上のあらゆるムダを省き、業界初、なんとプログラミング未経験者でも大歓迎！
@@ -41,34 +55,34 @@ cssでサイズが変わらない
 			海外からのバックパッカーや宿泊コストなどを極力切り詰めたいという皆様を応援します
 		</p>
 	</h2>
-	<h2 id="id05">
-		<p>Lounge</p>
-		<p>静かに学びたい方は特別なスペースを。
+	<h2 id="id07">
+		<p id="id08">Lounge</p>
+		<p id="id09">静かに学びたい方は特別なスペースを。
 			<br>
 			訪れてくださったお客様に思いっきり楽しんでいただきたい。そんな思いから当ホテル内に
 			<br>
 			Loungeを開設いたしました。
 		</p>
-		<p>詳しく見る</p>
-	<h2 id="id06">
-		<p>周辺施設</p>
-		<p>行きたいところへ、思い立てばすぐ。
+		<p id="syousai1">詳しく見る</p>
+	<h2 id="id10">
+		<p id="id11">周辺施設</p>
+		<p id="id12">行きたいところへ、思い立てばすぐ。
 			<br>
 			当ホテルから表参道周辺、青山、外苑一丁目など様々な場所に簡単にアクセスができます。
 			<br>
 			当ホテル周辺の観光箇所や穴場スポットなどご紹介。
 		</p>
-		<p>詳しく見る</p>
+		<p id="syousai2">詳しく見る</p>
 	</h2>
-	<h2 id="id07">
-		<p>おすすめプラン</p>
+	<h2 id="">
+		<p style="font-size: 24px">おすすめプラン</p>
 		<ul id="sample">
-			<li>サンプル<img src="./img/top/plan_img_01.png" alt=""></li>
-			<li>サンプル<img src="./img/top/plan_img_01.png" alt=""></li>
-			<li>サンプル<img src="./img/top/plan_img_01.png" alt=""></li>
+			<li><div class="sampletxt1" style="	font-size: 19px; text-align: center;">サンプル</div><div id="sampleimg1"><img style="	width: 300px;height: 234px;" src="./img/top/plan_img_01.png" alt=""></div></li>
+			<li><div class="sampletxt2" style="	font-size: 19px; text-align: center;">サンプル</div><div id="sampleimg2"><img style="	width: 300px;height: 234px;" src="./img/top/plan_img_01.png" alt=""></div></li>
+			<li><div class="sampletxt3" style="	font-size: 19px; text-align: center;">サンプル</div><div id="sampleimg3"><img style="	width: 300px;height: 234px;" src="./img/top/plan_img_01.png" alt=""></div></li>
 		</ul>
 	</h2>
-	<h2 id="id08"></h2>
+	<h2 id=""></h2>
 		<p>What's new・プログラミングができる学習宿泊ホテル</p>
 		<div><!--ここにSQL文を差し込む-->
 			<?php

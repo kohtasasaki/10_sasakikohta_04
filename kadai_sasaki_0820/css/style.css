@@ -15,20 +15,120 @@
 #logo{
 	width: 195px;
 }
-#id01{
+
+#title{
+	font-size: 10px;
+}
+
+#header{
+	justify-content: center;
+	display: flex;
+}
+
+#menu{
+	width: 960px;
+	height: 60px;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	background-color: #D3D3D3
+}
+
+#mainvisual{
 	width: 100%;
 }
 
-#id04{
-	background-image: (../img/top/intro_bg.png)
+#id02{
+	text-align: center;
+	color: white;
+	background-color: orange;
 }
 
-ul li{
-	display: flex;
+.toiawase{
+background-color: darkgray;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+font-size: 13px;
 }
+
+#id04{
+	width: auto;
+	height: 420px;
+	background-image: url("../img/top/intro_bg.png");
+	text-align: center;
+	color: white;
+	padding: 100px;
+	background-size: contain;
+}
+
+#id05{
+	font-size: 39px;
+}
+
+#id06{
+	font-size: 15px;
+	margin-top: 80px;
+}
+
+#id07{
+	width: auto;
+	height: 420px;
+	background-image: url("../img/top/bar_sec_bg.png");
+	text-align: center;
+	color: white;
+	padding: 100px;
+	background-size: contain;
+}
+
+#id08{
+	font-size: 39px;
+}
+
+#id09{
+	font-size: 15px;
+	margin-top: 80px;
+}
+
+
+#syousai1{
+	margin-top: 30px;
+	border: solid;
+}
+
+#id10{
+	width: auto;
+	height: 420px;
+	background-image: url("../img/top/facility_sec_bg.png");
+	text-align: center;
+	color: white;
+	padding: 100px;
+	background-size: contain;
+}
+
+#id11{
+	font-size: 39px;
+}
+
+#id12{
+	font-size: 15px;
+	padding: 40px;
+}
+
+#syousai2{
+	margin-top: 30px;
+	border: solid;
+}
+
 #sample{
 	display: flex;
+	height: 365px;
+	justify-content: center;
 }
+
+
 #video{
 	display: flex;
 	justify-content: space-between;
