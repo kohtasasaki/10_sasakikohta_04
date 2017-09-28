@@ -74,7 +74,7 @@ cssでサイズが変わらない
 		</p>
 		<p id="syousai2">詳しく見る</p>
 	</h2>
-	<h2 id="">
+	<h2 id="id13">
 		<p style="font-size: 24px">おすすめプラン</p>
 		<ul id="sample">
 			<li><div class="sampletxt1" style="	font-size: 19px; text-align: center;">サンプル</div><div id="sampleimg1"><img style="	width: 300px;height: 234px;" src="./img/top/plan_img_01.png" alt=""></div></li>
@@ -82,8 +82,8 @@ cssでサイズが変わらない
 			<li><div class="sampletxt3" style="	font-size: 19px; text-align: center;">サンプル</div><div id="sampleimg3"><img style="	width: 300px;height: 234px;" src="./img/top/plan_img_01.png" alt=""></div></li>
 		</ul>
 	</h2>
-	<h2 id=""></h2>
-		<p>What's new・プログラミングができる学習宿泊ホテル</p>
+	<h2 id="id14"></h2>
+		<p id="id15">What's new・プログラミングができる学習宿泊ホテル</p>
 		<div><!--ここにSQL文を差し込む-->
 			<?php
 			session_start();
@@ -108,7 +108,8 @@ cssでサイズが変わらない
 			} else {
 			  //Selectデータの数だけ自動でループしてくれる
 			  while( $result = $stmt->fetch(PDO::FETCH_ASSOC)){
-			    $view .= '<p>'.$result["id"].'</p>';
+			    $view .= '<p>'.$result["indate"].'</p>';
+					$view .= '<p>'.$result["naiyou"].'</p>';
 			  }
 			}
 			?>
@@ -125,7 +126,7 @@ cssでサイズが変わらない
 	<h2 id="id09">
 		<ul id="concept">
 			<li>アメニティ<img src="./img/footer/f_banner_link_01.png" alt="" width="200" height="200"></li>
-			<li>お得情報<img src="./img/footer/f_banner_link_02.png" alt=""width="200" height="200"></li>
+			<li>お得情報<img src="./img/footer/back_top.png" alt=""width="200" height="200"></li>
 			<li>コンセプト<img src="./img/footer/f_banner_link_03.png" alt=""width="200" height="200"></li>
 			<li>採用情報<img src="./img/footer/f_banner_link_04.png" alt=""width="200" height="200"></li>
 		</ul>
