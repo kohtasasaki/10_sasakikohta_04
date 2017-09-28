@@ -85,6 +85,7 @@ cssでサイズが変わらない
 	<h2 id="id14"></h2>
 		<p id="id15">What's new・プログラミングができる学習宿泊ホテル</p>
 		<div><!--ここにSQL文を差し込む-->
+		<table>
 			<?php
 			session_start();
 			//1.  DB接続する
@@ -108,13 +109,14 @@ cssでサイズが変わらない
 			} else {
 			  //Selectデータの数だけ自動でループしてくれる
 			  while( $result = $stmt->fetch(PDO::FETCH_ASSOC)){
-			    $view .= '<p>'.$result["indate"].'</p>';
-					$view .= '<p>'.$result["naiyou"].'</p>';
+			    $view .= '<tr><td><p>'.$result["indate"].'</p>';
+					$view .= '<td><p>'.$result["naiyou"].'</p>';
 			  }
 			}
 			?>
 			<?php echo $view; ?>
 
+		</table>
 		</div>
 		<div><!--ユーチューブのアイフレームをここにいれる-->
 			<ul id="video">
